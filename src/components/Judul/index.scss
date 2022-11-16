@@ -1,0 +1,33 @@
+.judul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 187px;
+  margin-bottom: 100px;
+}
+
+.judul__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.judul__h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 200%;
+  text-align: center;
+  color: #212121;
+}
+
+.judul__p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #949494;
+}

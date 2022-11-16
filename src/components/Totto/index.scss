@@ -1,0 +1,38 @@
+.totto-chan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  gap: 132px;
+  margin-bottom: 200px;
+}
+
+.right {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.right__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+  margin-left: 139px;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.left__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+  margin-right: 139px;
+}

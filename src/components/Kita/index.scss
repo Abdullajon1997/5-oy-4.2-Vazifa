@@ -1,0 +1,97 @@
+.kita__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 39px;
+}
+
+.kita__h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  text-align: center;
+  color: #212121;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 48px;
+}
+
+.kita__h2__span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  text-align: center;
+  color: #008F76;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card__p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #212121;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.card__p__span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 200%;
+  color: #212121;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card__img {
+  width: 80px;
+  height: 80px;
+}
+
+.card {
+  width: 525px;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.card__inner {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card__h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  color: #212121;
+}
+
+.card__p2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #949494;
+  text-align: center;
+}
