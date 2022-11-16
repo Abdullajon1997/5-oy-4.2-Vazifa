@@ -14,6 +14,7 @@ import Beranda from './components/Beranda/Beranda';
 import Koleksi from './components/Koleksi/Koleksi';
 import Syarat from './components/Syarat/Syarat';
 import Kontak from './components/Kontak/Kontak';
+import Eror from './components/Eror/Eror';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -38,6 +39,9 @@ function App() {
             <Route path='/koleksi' element={<Koleksi />} />
             <Route path='/syarat' element={<Syarat />} />
             <Route path='/kontak' element={<Kontak />} />
+            <Route path='*' element={<Eror />} />
+
+
           </Routes>
         </main>
       <Footer />
